@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding-left: 10px;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+form{
+    max-width: 640px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 56px;
+}
+
+form input{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+h2{
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+button{
+    width: 250px;
+    font-size: 15px;
+    border-radius: 3px, solid, green;
+    font-size: 20px;
+}
+
+form button:hover{
+    background-color: green;
+    border-radius: 3px, solid, green;
+    color: white;
+}
